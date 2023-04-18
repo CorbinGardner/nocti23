@@ -1,0 +1,75 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+    font-size: 1.5vw;
+    padding: 1%;
+    margin: 5%;
+    transition-duration: .2s;
+}
+
+nav a:hover {
+    font-size: 1.7vw;
+    text-shadow: 1vw 1vw 1vw;
+}
+
+.left:hover {
+    text-shadow: -.2vw .4vw .5vw;
+}
+
+.right:hover {
+    text-shadow: .2vw .4vw .5vw;
+}
+
+body {
+    background: radial-gradient( #F4D35E, #0D3B66);
+    background-repeat: none;
+}
+
+blockquote {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 3vw;
+    padding: 1% 0; 
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 5vw;
+    width: 50%;
+    margin: 5% 25%;
+    transition-duration: 1s;
+}
+
+main:hover #nocti {
+    transform: rotate(200deg);
+    margin: 0 40%;
+    font-size: 8vw;
+}
+
+main:hover #year {
+    transform: rotate(-380deg);
+    margin: 10% 0%;
+    font-size: 8vw;
+}
+
+main:hover #review {
+    transform: rotate(-30deg);
+    margin: 10% 50%;
+    font-size: 8vw;
+}
+
+main {
+    height: 1000px;
+}
