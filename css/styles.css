@@ -1,7 +1,25 @@
+/*
+0D3B66 - Blue
+FAF0CA - Tan
+F4D35E - Gold
+
+font-family: 'Nixie One', cursive;
+font-family: 'Cinzel Decorative', cursive;
+*/
+
 * {
     border: 0;
     margin: 0;
     padding: 0;
+}
+
+header {
+    min-height: 800px;
+}
+
+nav {
+    padding: 2% 0;
+    border-bottom: double .5vw #FAF0CA;
 }
 
 nav li {
@@ -32,7 +50,7 @@ nav a:hover {
 }
 
 body {
-    background: radial-gradient( #F4D35E, #0D3B66);
+    background: radial-gradient( #FAF0CA, #F4D35E);
     background-repeat: none;
 }
 
@@ -41,35 +59,80 @@ blockquote {
     font-family: 'Cinzel Decorative', cursive;
     font-size: 3vw;
     padding: 1% 0; 
+    border-bottom: double .5vw #FAF0CA;
 }
 
 h1 {
     text-align: center;
     font-family: 'Cinzel Decorative', cursive;
-    font-size: 5vw;
+    font-size: 8vw;
     width: 50%;
     margin: 5% 25%;
-    transition-duration: 1s;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.1, 1.0, 1.0, 1.0);
+    text-shadow: 0 .5vw .7vw black;
 }
 
-main:hover #nocti {
+blockquote:hover #nocti {
     transform: rotate(200deg);
     margin: 0 40%;
-    font-size: 8vw;
+    font-size: 7vw;
+    text-shadow: none;
 }
 
-main:hover #year {
+blockquote:hover #year {
     transform: rotate(-380deg);
     margin: 10% 0%;
-    font-size: 8vw;
+    font-size: 7vw;
+    text-shadow: none;
 }
 
-main:hover #review {
+blockquote:hover #review {
     transform: rotate(-30deg);
     margin: 10% 50%;
-    font-size: 8vw;
+    font-size: 7vw;
+    text-shadow: none;
 }
 
-main {
-    height: 1000px;
+article {
+    width: 80%;
+}
+
+section {
+    font-family: 'Nixie One', cursive;
+    padding: 150px 20%;
+    font-size: 2.5em;
+    text-justify: inter-word;
+    border-bottom: double .5vw #FAF0CA;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-family: 'Nixie One', cursive;
+    width: 40%;
+    margin: 2% 29%;
+    text-align: center;
+    padding: 1%;
+    outline: solid .2vw #0D3B66;
+    border-radius: .4vw;
+    background-color: #F4D35E;
+}
+
+.btn:active {
+    background-color: #0D3B66;
+    outline: solid .2vw #F4D35E;
+}
+
+footer {
+    padding: 10% 0;
+    width: 100%;
+    background-color: #0D3B66;
+}
+
+footer p {
+    text-align: center;
+    color: #F4D35E;
+    font-size: 2vw;
 }
