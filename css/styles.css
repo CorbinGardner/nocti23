@@ -106,7 +106,7 @@ section {
     border-bottom: double .5vw #FAF0CA;
 }
 
-.btn {
+main .btn {
     text-decoration: none;
     color: black;
     display: block;
@@ -125,14 +125,61 @@ section {
     outline: solid .2vw #F4D35E;
 }
 
+iframe {
+    width: 100%;
+    border-radius: .4vw;
+    outline: solid .2vw #0D3B66;
+}
+
 footer {
     padding: 10% 0;
     width: 100%;
     background-color: #0D3B66;
 }
 
+footer form {
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    border-bottom: double .5vw #FAF0CA;
+    border-radius: .4vw;
+}
+
+footer .btn {
+    color: black;
+    font-family: 'Nixie One', cursive;
+    margin: 3%;
+    padding: 1% 3%;
+    outline: solid .2vw #0D3B66;
+    border-radius: .4vw;
+    background-color: #F4D35E;
+    outline: solid .2vw #FAF0CA;
+} 
+
+footer .t-box {
+    padding: 1%;
+    font-size: 1.2vw;
+    font-family: 'Nixie One', cursive;
+    margin: 0 1.5%;
+    border-radius: .4vw;
+    background-color: #FAF0CA;
+    outline: solid .2vw #F4D35E;
+}
+
+footer #questions {
+    margin: 5% 1.5%;
+    width: 70%;
+}
+
+footer label {
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+    font-size: 1.5vw;
+}
+
 footer p {
     text-align: center;
     color: #F4D35E;
     font-size: 2vw;
+    margin-top: 2%;
 }
